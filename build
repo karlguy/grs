@@ -9,7 +9,7 @@ runscript cycle.1.py
 pivot tmp/stage1root
 runscript clean.sh
 unmount
-tarit stage1-amd64-hardened
+tarit stage1-amd64-musl-clang
 hashit
 
 log stamp
@@ -21,7 +21,7 @@ populate 2
 runscript cycle.2.sh
 runscript clean.sh
 unmount
-tarit stage2-amd64-hardened
+tarit stage2-amd64-musl-clang
 hashit
 
 log stamp
@@ -33,5 +33,5 @@ populate 3
 runscript cycle.3.sh
 runscript clean.sh
 unmount
-tarit stage3-amd64-hardened
+tarit stage3-amd64-musl-clang
 hashit

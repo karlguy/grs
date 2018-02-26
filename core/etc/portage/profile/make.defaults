@@ -1,0 +1,11 @@
+# Default compiler is set to cc, which then calls clang
+# This is done because clang is not located in a standard PATH location
+## NEVERMIND, THESE CHANGES BREAK SOME PACKAGES
+CC="clang"
+CXX="clang++"
+
+# Use LLVM AR, NM, and RANLIB.
+# Doesn't really matter: /usr/bin/{ar,nm,ranlib} all call their respective binaries
+#AR="llvm-ar"
+#NM="llvm-nm"
+#RANLIB="llvm-ranlib"

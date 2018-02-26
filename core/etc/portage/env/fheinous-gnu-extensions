@@ -1,0 +1,2 @@
+CFLAGS="${CFLAGS} -fheinous-gnu-extensions"
+CXXFLAGS="${CXXFLAGS} -fheinous-gnu-extensions"

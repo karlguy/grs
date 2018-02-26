@@ -1,1 +1,1 @@
-../../usr/portage/profiles/hardened/linux/amd64
+../../usr/portage/profiles/default/linux/musl/amd64

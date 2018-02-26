@@ -1,0 +1,2 @@
+CFLAGS="${CFLAGS} -O0 -fno-lto"
+CXXFLAGS="${CXXFLAGS} -O0 -fno-lto"

@@ -1,0 +1,2 @@
+# For libressl
+net-misc/curl curl_ssl_openssl

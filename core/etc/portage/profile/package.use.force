@@ -1,0 +1,3 @@
+# For libressl
+net-misc/iputils gcrypt
+net-misc/curl curl_ssl_libressl

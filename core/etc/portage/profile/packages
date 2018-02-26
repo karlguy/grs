@@ -1,0 +1,7 @@
+*sys-devel/clang
+*sys-devel/llvm
+-*sys-devel/gcc
+-*sys-devel/gnuconfig
+*dev-vcs/git
+-*net-misc/rsync
+-*sys-apps/busybox
